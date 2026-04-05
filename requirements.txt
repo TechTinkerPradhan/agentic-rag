@@ -1,15 +1,38 @@
+# Data acquisition & processing
 sec-edgar-downloader
-unstructured[pdf,html]
+unstructured[html]
+pandas
+tqdm
+
+# LangChain / LangGraph
 langchain
 langgraph
 langchain-openai
 langchain-google-genai
+langchain-community
+
+# Vector store & embeddings
 qdrant-client
 fastembed
 sentence-transformers
-langsmith
+
+# Evaluation
 ragas
+langsmith
+
+# Web search
 tavily-python
+
+# Observability — W&B Weave
+weave
+wandb
+
+# Backend
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
 python-dotenv
-pandas
-tqdm
+
+# Frontend build tooling (optional, managed separately via npm)
+# Frontend deps are in frontend/package.json
